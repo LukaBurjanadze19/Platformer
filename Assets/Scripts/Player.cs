@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float speed;
     void Update()
     {
-        
+        Movement();
     }
 
     private void Movement()
