@@ -11,11 +11,6 @@ public class CammeraFollow : MonoBehaviour
     private void LateUpdate()
     {
         transform.position = player.position + new Vector3(0, 0, -10);
-        //CammeraFollowToPlayer();
-    }
-
-    private void CammeraFollowToPlayer()
-    {
-        transform.position += player.position + directionToPlayer;
+       
     }
 }
